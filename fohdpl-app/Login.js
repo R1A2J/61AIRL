@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { View,} from "react-native";
 import { StyleSheet, Text, Image } from "react-native";
 import Logo from '../fohdpl-app/assets/Logo_1.png';
-import CustomInput from '../Components/CustomInput'
+import CustomInput from '../Components/CustomInput/CustomInput'
 
 export default function Login() {
     const [email, setEmail] = useState('');
