@@ -1,14 +1,15 @@
 import { StatusBar } from 'expo-status-bar';
+import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import Welcome from './Welcome.js'
 
 export default function App() {
   return (
     <View style={styles.container}>
+      <Text>Welcome Friends of the Hoover Durant Public Library!</Text>
       <StatusBar style="auto" />
-      <div>
+      {/* <div>
         <Welcome />
-      </div>
+      </div> */}
     </View> 
   );
 }
