@@ -4,11 +4,12 @@ import Welcome from './Welcome.js'
 
 export default function App() {
   return (
-    {/* <View style={styles.container}>
+    <View style={styles.container}>
       <StatusBar style="auto" />
-    </View> */}
-    <div>
-      <Welcome/>
+      <div>
+        <Welcome/>
+      </div>
+    </View> 
   );
 }
 
