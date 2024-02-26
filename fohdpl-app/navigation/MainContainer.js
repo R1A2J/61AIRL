@@ -7,7 +7,6 @@ import {SimpleLineIcons} from 'react-native-vector-icons/Ionicons'
 //Screens
 import WelcomeScreen from './screens/WelcomeScreen';
 import LoginScreen from './screens/LoginScreen';
-import 
 
 const welcomeName = 'Welcome';
 const loginName = 'Login';
