@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, View, TextInput, Button } from 'react-native';
 
-const Login = () => {
+export default function LoginScreen({navigation}) {
   const [email, setEmail] = React.useState('');
   const [password, setPassword] = React.useState('');
 
@@ -44,5 +44,3 @@ const styles = StyleSheet.create({
     borderBottomColor: '#ccc',
   },
 });
-
-export default Login;
