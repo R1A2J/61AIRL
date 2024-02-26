@@ -6,7 +6,7 @@ import {SimpleLineIcons} from 'react-native-vector-icons/Ionicons'
 
 //Screens
 import WelcomeScreen from './screens/WelcomeScreen';
-import Login from './screens/Login';
+import Login from './screens/LoginScreen';
 
 const welcomeName = 'Welcome';
 const loginName = 'Login';
@@ -27,10 +27,11 @@ export default function MainContainer() {
                     } else if (rn == loginName) {
                         iconName = focused ? 'login' : 'logout'
                     }
-                    return <Ionicons name 
-                }
+                    return <Ionicons name = {iconName} size = {size} color = {color}/> 
+                },
             })}>
-          <Stack.Screen
+            <Tab.Screen name={welcomeName} component={WelcomeScreen}/>
+          {/* <Stack.Screen
             name = "Welcome"
             component={WelcomeScreen}
             <View style={styles.container}>
@@ -39,7 +40,7 @@ export default function MainContainer() {
                 title = "Sign up!"
                 onPress={Login.js}>
               </Button>
-            </View> 
+            </View>  */}
         </Tab.Navigator>
       </NavigationContainer>
     );
