@@ -4,7 +4,7 @@ import { StyleSheet, Text, Image } from "react-native";
 import Logo from '../fohdpl-app/assets/Logo_1.png';
 import CustomInput from '../Components/CustomInput/CustomInput'
 
-export default function Login() {
+export default function Login(navigation) {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
