@@ -18,7 +18,6 @@ export default function Login() {
         />
         <CustomInput placeholderText="password" 
         value={password} setValue={setPassword} 
-
         secureTextEntry
         />
       </View>
