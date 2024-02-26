@@ -1,5 +1,0 @@
-function WelcomeScreen(navigation) {
-    return (
-        
-    )
-}
