@@ -10,7 +10,7 @@ export default function WelcomeScreen({navigation}) {
             <Button
                 title="Sign up!"
                 onPress={() =>
-                    navigation.navigate('Login')
+                    navigation.navigate(loginName)
                 }></Button>
         </View> 
     )
