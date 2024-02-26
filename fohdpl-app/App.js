@@ -6,8 +6,12 @@ import {NavigationContainer} from '@react-navigation/native';
 export default function App() {
   return (
     <NavigationContainer>
-      <View style={styles.container}>
-        <Text>Welcome Friends of the Hoover Durant Public Library!</Text>
+      <Stack.Navigator>
+        <Stack.Screen
+          name = "Welcome"
+          component={WelcomeScreen}
+          <View style={styles.container}>
+            <Text>Welcome Friends of the Hoover Durant Public Library!</Text>
         <Button
           title = "Sign up!"
           onPress={Login.js}
@@ -17,6 +21,7 @@ export default function App() {
           <Welcome />
         </div> */}
       </View> 
+      </Stack.Navigator>
     </NavigationContainer>
   );
 }
